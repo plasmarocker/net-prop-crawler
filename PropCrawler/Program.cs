@@ -19,7 +19,7 @@ namespace ConsoleApp1
 
             using (var sw = file.AppendText())
             {
-                BuildClass(typeof(HttpResponseMessage), sw);
+                BuildClass(typeof(HttpResponseMessage), sw); // use whatever type you want to crawl here
 
                 sw.Close();
             }
